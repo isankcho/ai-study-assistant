@@ -1,0 +1,9 @@
+[server]
+maxUploadSize = 1
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s - %(levelname)s - %(message)s"

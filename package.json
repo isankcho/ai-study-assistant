@@ -1,0 +1,23 @@
+{
+  "name": "ai-study-helper",
+  "version": "1.0.0",
+  "description": "A repository for my personal AI note taker and study helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isankcho/ai-study-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isankcho/ai-study-helper/issues"
+  },
+  "homepage": "https://github.com/isankcho/ai-study-helper#readme",
+  "dependencies": {
+    "@tryfabric/martian": "^1.2.4"
+  }
+}

@@ -1,0 +1,31 @@
+[project]
+name = "ai-study-helper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.40.22",
+    "dependency-injector>=4.48.1",
+    "fastmcp>=2.12.3",
+    "httpx>=0.28.1",
+    "langchain>=0.3.27",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.32",
+    "langgraph>=0.6.6",
+    "mcp[cli]>=1.14.0",
+    "notion2md>=2.9.0",
+    "pydantic>=2.11.7",
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "python-slugify>=8.0.4",
+    "starlette>=0.48.0",
+    "streamlit>=1.49.1",
+    "streamlit-authenticator>=0.4.2",
+    "tiktoken>=0.11.0",
+    "uvicorn>=0.35.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
